@@ -1,0 +1,128 @@
+.navbar-nav li{
+    padding-right: 15px;
+}
+
+#lk{
+    padding-right: 0px;
+}
+
+.nav-link{
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+.navbar-brand{
+    padding-right: 25px;
+    font-size: 25px;
+    
+}
+
+.navbar, .fotter{
+    background: #343249;    
+}
+
+html {
+    height: 100%;
+    font-size: 15px;
+}
+
+label{
+    font-size: 16px;
+}
+
+label.form-check-label{
+    font-size: 14px;  
+}
+
+label:not([class]){
+    font-weight:600;
+}
+  
+body{ 
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+   
+}
+
+.fotter{
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 500;    
+}
+
+#img_creator{	
+	margin-left:5px;
+    margin-right:5px;
+}
+
+#container_body{
+    padding-right: 40px;
+    padding-left: 40px; 
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+.lead{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-outline-secondary{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+    color:#3D84A8;
+    border-color:#3D84A8 !important;
+    border-width: 2px;
+    font-weight: 500;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:visited  {
+    border-color:#3D84A8 !important;
+    background-color: #3D84A8 !important;          
+}
+
+.btn-outline-secondary:focus {
+    box-shadow: none !important;   
+}
+
+.btn-outline-success{   
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight:600;     
+}
+
+.btn-success{
+    background-color: #17B978; 
+    font-weight:600;
+}
+
+.btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:visited  {
+    border-color:#17B978 !important;
+    background-color: #17B978 !important;          
+}
+
+.my_bg{
+    background:#494666; 
+    color:white;   
+}
+
+.alert{
+    font-weight:600;
+}
+
+.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+}
